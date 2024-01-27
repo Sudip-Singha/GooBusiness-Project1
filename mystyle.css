@@ -1,0 +1,71 @@
+.web-development-services {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 90vw;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 4rem;
+    margin-right: 2rem;
+}
+.service {
+    min-width: 100%;
+    padding: 1.2rem;
+    background-color: #f5d5d5;
+    border-radius: 4%;
+    transition: all .4s;
+}
+
+.service:hover{
+    transform: scale(1.1);
+    box-shadow: rgb(17, 12, 46, 0.15) 0 48px 100px 0;
+
+}
+
+.service-img {
+    width: 100%;
+    height: 210px;
+}
+.service-img:hover{
+    cursor: pointer;
+}
+
+.service-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.service-title {
+    margin: 0.7rem 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer{
+    font-size: 1.2rem;
+}
+
+.btn {
+    padding: .6rem 1.4rem;
+    background-color: orangered;
+    border-radius: 5%;
+    text-align: center;
+    align-self: center;
+}
+
+.btn a {
+    color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+}

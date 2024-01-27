@@ -1,0 +1,24 @@
+@media (max-width: 1180px) {
+    .services{
+       display: flex;
+       overflow: scroll;
+       margin-right: 0;
+    }
+    .service{
+        min-width: 40%;
+    }
+    .service:hover{
+        box-shadow: none;
+        transform: scale(1);
+    }
+}
+@media (max-width: 780px) {
+    .service{
+        min-width: 60%;
+    }
+}
+@media (max-width: 520px) {
+    .service{
+        min-width: 90%;
+    }
+}
